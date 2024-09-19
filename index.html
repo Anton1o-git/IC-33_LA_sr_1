@@ -1,64 +1,151 @@
 <!DOCTYPE html>
-<html lang="us">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Лихоліт_СР</title>
     <style>
         a:link {
-          color: green;
-          background-color: transparent;
-          text-decoration: none;
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
         }
         a:visited {
-          color: rgb(22, 148, 207);
-          background-color: transparent;
-          text-decoration: none;
+            color: rgb(22, 148, 207);
+            background-color: transparent;
+            text-decoration: none;
         }
         a:hover {
-          color: red;
-          background-color: transparent;
-          text-decoration: underline;
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
         }
         a:active {
-          color: yellow;
-          background-color: transparent;
-          text-decoration: underline;
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
         }
-        </style>
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f1f1f1;
+        }
+    </style>
 </head>
 <body>
-    <h2>ІС-33 Лихоліт Антон</h2>
-    <h1>Самостійна робота 1</h1>
-    <h2>Корисні звички, які змінять ваше життя на краще</h2>
-    <img src="https://i.work.ua/article/2137b.jpg?v=1713862799" alt="Корисні звички фото 1" width="800" height="450">
-    <h2>Чому корисні звички важливі для успіху та здоров’я?</h2>
-    <p>Звички, що сприяють розвитку, є фундаментом життя. 
-    Вони допомагають не лише досягати професійних цілей, 
-    але й значно покращують загальний стан організму та емоційне благополуччя.</p>
-    <h2>Корисні звички для здоров’я:</h2>
-    <ul>
-        <li>Плануйте харчування</li>
-        <li>Пийте багато води</li>
-        <li>Більше рухайтесь</li>
-        <li>Спробуйте налагодити сон</li>
-        <li>Проводьте більше часу на свіжому повітрі</li>
-    </ul>
-    <h2>Кроки до формування позитивних звичок:</h2>
-    <ol>
-        <li>Визначте свої цілі та пріоритети.</li>
-        <li>Починайте з малого, впроваджуючи одну звичку за раз.</li>
-        <li>Відстежуйте свій прогрес і фіксуйте досягнення.</li>
-        <li>Регулярно аналізуйте свій підхід та коригуйте плани за необхідністю.</li>
-        <li>Залишайтеся мотивованими, нагадуючи собі про важливість змін.</li>
-    </ol>
-    <h2>Читайте також</h2>
-    <ul>
-        <li><a href="https://www.work.ua/en/articles/self-development/3329/">Як знайти покликання, якщо я не знаю, чого хочу</a></li>
-        <li><a href="https://www.work.ua/en/articles/self-development/3209/">10 навичок, без яких не обійтися у 2024 році</a></li>
-    </ul>
-    <button>Просто кнопка</button><br><br>
-    <a href="https://marieclaire.ua/beauty/korisni-zvichki-dlya-zdorov-ya">Посилання на джерело</a><br>
-    <a href="123123">Невідвідане посилання</a>
+    <header>
+        <div>
+            <h2>ІС-33 Лихоліт Антон</h2>
+            <h1>Самостійна робота 1</h1>
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Корисні звички, які змінять ваше життя на краще</h2>
+            <div>
+                <img src="./images/2137b.jpg" alt="Корисні звички фото 1" width="800" height="450">
+            </div>
+        </section>
+
+        <section>
+            <h2>Чому корисні звички важливі для успіху та здоров’я?</h2>
+            <div>
+                <p>Звички, що сприяють розвитку, є фундаментом життя. Вони допомагають не лише досягати професійних цілей, але й значно покращують загальний стан організму та емоційне благополуччя.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Корисні звички для здоров’я:</h2>
+            <div class="habits-list">
+                <ul>
+                    <li>Плануйте харчування</li>
+                    <li>Пийте багато води</li>
+                    <li>Більше рухайтесь</li>
+                    <li>Спробуйте налагодити сон</li>
+                    <li>Проводьте більше часу на свіжому повітрі</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Кроки до формування позитивних звичок:</h2>
+            <div>
+                <ol>
+                    <li>Визначте свої цілі та пріоритети.</li>
+                    <li>Починайте з малого, впроваджуючи одну звичку за раз.</li>
+                    <li>Відстежуйте свій прогрес і фіксуйте досягнення.</li>
+                    <li>Регулярно аналізуйте свій підхід та коригуйте плани за необхідністю.</li>
+                    <li>Залишайтеся мотивованими, нагадуючи собі про важливість змін.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section>
+            <h2>Читайте також</h2>
+            <div>
+                <ul>
+                    <li><a href="https://www.work.ua/en/articles/self-development/3329/">Як знайти покликання, якщо я не знаю, чого хочу</a></li>
+                    <li><a href="https://www.work.ua/en/articles/self-development/3209/">10 навичок, без яких не обійтися у 2024 році</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <button>Просто кнопка</button><br><br>
+                <a href="https://marieclaire.ua/beauty/korisni-zvichki-dlya-zdorov-ya">Посилання на джерело</a><br>
+                <a href="123123">Невідвідане посилання</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Тематична таблиця корисних звичок</h2>
+            <div>
+                <table>
+                    <tr>
+                        <th>Звичка</th>
+                        <th>Переваги</th>
+                        <th>Приклад</th>
+                    </tr>
+                    <tr>
+                        <td>Планування харчування</td>
+                        <td>Збалансоване харчування</td>
+                        <td>Складання меню на тиждень</td>
+                    </tr>
+                    <tr>
+                        <td>Регулярна фізична активність</td>
+                        <td>Покращення фізичної форми</td>
+                        <td>Щоденні прогулянки</td>
+                    </tr>
+                    <tr>
+                        <td>Налагодити режим сну</td>
+                        <td>Підвищення продуктивності</td>
+                        <td>Лягати спати в один і той же час</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>© 2024 Лихоліт Антон. Всі права захищені.</p>
+        </div>
+    </footer>
 </body>
 </html>
